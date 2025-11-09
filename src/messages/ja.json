@@ -1,5 +1,21 @@
 {
   "HomePage": {
     "title": "AUT サンプルウェブ"
+  },
+  "SamplePage": {
+    "back_button": "ホームページに戻る"
+  },
+  "ButtonBasic": {
+    "button_clicked": "クリックした!",
+    "button_not_clicked": "クリックされていません!"
+  },
+  "CheckboxBasic": {
+    "checkbox_checked": "チェック済み!",
+    "checkbox_unchecked": "未チェック!"
+  },
+  "InputBasic": {
+    "input_placeholder": "何か入力してください...",
+    "input_value": "値",
+    "input_empty": "空"
   }
 }

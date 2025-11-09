@@ -1,5 +1,21 @@
 {
   "HomePage": {
     "title": "AUT Sample Web"
+  },
+  "SamplePage": {
+    "back_button": "Back to home page"
+  },
+  "ButtonBasic": {
+    "button_clicked": "Clicked!",
+    "button_not_clicked": "Not Clicked!"
+  },
+  "CheckboxBasic": {
+    "checkbox_checked": "Checked!",
+    "checkbox_unchecked": "Not Checked!"
+  },
+  "InputBasic": {
+    "input_placeholder": "Type something...",
+    "input_value": "Value",
+    "input_empty": "Empty"
   }
 }
