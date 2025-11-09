@@ -1,5 +1,5 @@
 {
-    "Home": {
-        "stepTwo": "Save and see your changes instantly."
-    }
+  "HomePage": {
+    "title": "AUT Sample Web"
+  }
 }
