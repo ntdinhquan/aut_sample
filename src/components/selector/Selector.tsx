@@ -3,10 +3,11 @@ import { useState } from "react";
 import { Combobox } from "@/components/ui/combobox";
 import { selectorData } from "@/data/selector-data";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 export function Selector() {
   const router = useRouter();
-
+  const t = useTranslations("Selector");
   const [framework, setFramework] = useState("");
   const [componentGroup, setComponentGroup] = useState("");
   const [control, setControl] = useState("");
@@ -41,6 +42,7 @@ export function Selector() {
         onChange={onChange}
         options={options}
         disabled={disabled}
+        placeholder={t("select_placeholder")}
       />
     </div>
   );

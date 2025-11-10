@@ -8,21 +8,27 @@ interface Props {
   params: Promise<{ id: string; locale: string }>;
 }
 
+interface SampleInfo {
+  framework: string;
+  component: string;
+  control: string;
+  sample: string;
+}
+
+
 export default async function SamplePage({ params }: Props) {
   const t = await getTranslations("SamplePage");
   const { id, locale } = await params;
 
-  let sampleInfo: {
-    framework: string;
-    component: string;
-    control: string;
-    sample: string;
-  } | null = null;
 
-  selectorData.forEach((fw) => {
-    fw.components.forEach((cg) => {
-      cg.controls.forEach((ctrl) => {
-        ctrl.samples.forEach((s) => {
+
+  let sampleInfo: SampleInfo | null = null;
+
+
+  for (const fw of selectorData) {
+    for (const cg of fw.components) {
+      for (const ctrl of cg.controls) {
+        for (const s of ctrl.samples) {
           if (s.id === id) {
             sampleInfo = {
               framework: fw.name,
@@ -30,11 +36,15 @@ export default async function SamplePage({ params }: Props) {
               control: ctrl.name,
               sample: s.name,
             };
+            break;
           }
-        });
-      });
-    });
-  });
+        }
+        if (sampleInfo) break;
+      }
+      if (sampleInfo) break;
+    }
+    if (sampleInfo) break;
+  }
 
   if (!sampleInfo) return notFound();
 

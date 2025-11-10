@@ -17,5 +17,9 @@
     "input_placeholder": "Type something...",
     "input_value": "Value",
     "input_empty": "Empty"
+  },
+  "Selector": {
+    "select_placeholder": "Select an option"
   }
+
 }
