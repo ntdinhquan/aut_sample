@@ -20,5 +20,9 @@
   },
   "Selector": {
     "select_placeholder": "オプションを選択"
+  },
+  "LocaleSwitcher": {
+    "label": "言語を変更",
+    "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
   }
 }
