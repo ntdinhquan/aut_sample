@@ -20,6 +20,11 @@
   },
   "Selector": {
     "select_placeholder": "Select an option"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ja {日本語} en {English} other {Unknown}}"
   }
+
 
 }
