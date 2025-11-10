@@ -1,11 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useState } from "react";
-import { FrameworkSelect } from "@/components/selectors/framework-select";
-import { ComponentSelect } from "@/components/selectors/component-select";
-import { ControlSelect } from "@/components/selectors/control-select";
-import { SampleSelect } from "@/components/selectors/sample-select";
 import { Selector } from "@/components/selector/Selector";
 
 export default function Home() {

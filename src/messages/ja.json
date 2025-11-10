@@ -17,5 +17,8 @@
     "input_placeholder": "何か入力してください...",
     "input_value": "値",
     "input_empty": "空"
+  },
+  "Selector": {
+    "select_placeholder": "オプションを選択"
   }
 }
