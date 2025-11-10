@@ -6,8 +6,11 @@
     "back_button": "Back to home page"
   },
   "ButtonBasic": {
-    "button_clicked": "Clicked!",
-    "button_not_clicked": "Not Clicked!"
+    "click_me": "Click me",
+    "no_action": "No action yet",
+    "left_click": "You left clicked!",
+    "double_click": "You double clicked!",
+    "right_click": "You right clicked!"
   },
   "CheckboxBasic": {
     "checkbox_checked": "Checked!",
@@ -18,13 +21,51 @@
     "input_value": "Value",
     "input_empty": "Empty"
   },
+  "InputButton": {
+    "button_label": "Click Me (Input button)",
+    "no_action": "No action yet",
+    "left_click": "You left clicked!",
+    "double_click": "You double clicked!",
+    "right_click": "You right clicked!"
+  },
+  "InputEmail": {
+    "label": "Your Email",
+    "placeholder": "Enter your email...",
+    "no_value": "No email typed yet",
+    "error_required": "Email is required",
+    "error_invalid": "Email is invalid",
+    "submitted": "Email submitted",
+    "submit": "Submit"
+  },
   "Selector": {
     "select_placeholder": "Select an option"
   },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
+  },
+  "SelectBasic": {
+    "select_placeholder": "Select an option",
+    "apple": "apple",
+    "banana": "banana",
+    "orange": "orange",
+    "selected": "Selected",
+    "not_selected": "Not Selected"
+  },
+  "TextareaBasic": {
+    "placeholder": "Type something...",
+    "empty": "No text yet"
+  },
+  "DivBasic": {
+    "content": "This is a basic div element"
+  },
+  "H2Basic": {
+    "content": "This is a basic heading"
+  },
+  "SpanBasic": {
+    "content": "This is a basic span"
+  },
+  "LabelBasic": {
+    "content": "This is a basic label"
   }
-
-
 }

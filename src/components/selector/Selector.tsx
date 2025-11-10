@@ -37,7 +37,7 @@ export function Selector() {
     <div className="flex flex-col gap-1">
       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{label}</span>
       <Combobox
-        className="w-40"
+        className="w-48"
         value={value}
         onChange={onChange}
         options={options}
