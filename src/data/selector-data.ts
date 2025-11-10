@@ -29,6 +29,27 @@ export const selectorData = [
             ],
           },
           {
+            id: "input-button",
+            name: "Input (Button Type)",
+            samples: [
+              { id: "input-button", name: "Input Button type" },
+            ],
+          },
+          {
+            id: "input-email",
+            name: "Input (Email Type)",
+            samples: [
+              { id: "input-email", name: "Input Email type" },
+            ],
+          },
+          {
+            id: "input-multi-type",
+            name: "Input (Various Type)",
+            samples: [
+              { id: "input-multi-type", name: "Input Various type" },
+            ],
+          },
+          {
             id: "checkbox",
             name: "Checkbox",
             samples: [
@@ -38,11 +59,17 @@ export const selectorData = [
             ],
           },
           {
-            id: "radio",
-            name: "Radio",
+            id: "textarea",
+            name: "TextArea",
             samples: [
-              { id: "radio-basic", name: "Basic Radio" },
-              { id: "radio-group", name: "Radio Group" },
+              { id: "textarea-sample", name: "TextArea sample" },
+            ],
+          },
+          {
+            id: "select",
+            name: "Select",
+            samples: [
+              { id: "select-sample", name: "Select sample" },
             ],
           },
         ],
@@ -52,68 +79,31 @@ export const selectorData = [
         name: "Layout",
         controls: [
           {
-            id: "grid",
-            name: "Grid Layout",
+            id: "div",
+            name: "div",
             samples: [
-              { id: "grid-basic", name: "Basic Grid" },
-              { id: "grid-responsive", name: "Responsive Grid" },
-              { id: "grid-nested", name: "Nested Grid" },
+              { id: "div-basic", name: "Basic Div" },
             ],
           },
           {
-            id: "card",
-            name: "Card",
+            id: "span",
+            name: "Span",
             samples: [
-              { id: "card-basic", name: "Basic Card" },
-              { id: "card-hover", name: "Hover Card" },
-              { id: "card-with-image", name: "Card with Image" },
+              { id: "span-basic", name: "Basic Span" },
             ],
           },
           {
-            id: "modal",
-            name: "Modal",
+            id: "h2",
+            name: "Heading 2",
             samples: [
-              { id: "modal-basic", name: "Basic Modal" },
-              { id: "modal-confirm", name: "Confirm Modal" },
+              { id: "h2-basic", name: "Basic Heading 2" },
             ],
           },
           {
-            id: "tabs",
-            name: "Tabs",
+            id: "label",
+            name: "Label",
             samples: [
-              { id: "tabs-basic", name: "Basic Tabs" },
-              { id: "tabs-icon", name: "Tabs with Icons" },
-            ],
-          },
-        ],
-      },
-      {
-        id: "feedback",
-        name: "Feedback Controls",
-        controls: [
-          {
-            id: "toast",
-            name: "Toast",
-            samples: [
-              { id: "toast-basic", name: "Basic Toast" },
-              { id: "toast-success", name: "Success Toast" },
-              { id: "toast-error", name: "Error Toast" },
-            ],
-          },
-          {
-            id: "tooltip",
-            name: "Tooltip",
-            samples: [
-              { id: "tooltip-basic", name: "Basic Tooltip" },
-              { id: "tooltip-hover", name: "Hover Tooltip" },
-            ],
-          },
-          {
-            id: "spinner",
-            name: "Spinner",
-            samples: [
-              { id: "spinner-basic", name: "Basic Spinner" },
-              { id: "spinner-inline", name: "Inline Spinner" },
+              { id: "label-basic", name: "Basic Label" },
             ],
           },
         ],

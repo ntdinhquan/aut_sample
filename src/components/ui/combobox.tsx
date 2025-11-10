@@ -30,6 +30,7 @@ export function Combobox<TValue>({
   className,
 }: ComboboxProps<TValue>) {
   const [open, setOpen] = useState(false);
+  
   const selectedLabel =
     options.find((o) => o.value === value)?.label ?? placeholder;
   return (

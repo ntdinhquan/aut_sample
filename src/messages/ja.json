@@ -6,8 +6,11 @@
     "back_button": "ホームページに戻る"
   },
   "ButtonBasic": {
-    "button_clicked": "クリックした!",
-    "button_not_clicked": "クリックされていません!"
+    "click_me": "クリックしてください",
+    "no_action": "まだアクションはありません",
+    "left_click": "左クリックしました!",
+    "double_click": "ダブルクリックしました!",
+    "right_click": "右クリックしました!"
   },
   "CheckboxBasic": {
     "checkbox_checked": "チェック済み!",
@@ -18,11 +21,51 @@
     "input_value": "値",
     "input_empty": "空"
   },
+  "InputButton": {
+    "button_label": "クリックしてください!",
+    "no_action": "まだアクションはありません",
+    "left_click": "左クリックしました!",
+    "double_click": "ダブルクリックしました!",
+    "right_click": "右クリックしました!"
+  },
+  "InputEmail": {
+    "label": "メールアドレス",
+    "placeholder": "メールアドレスを入力してください...",
+    "no_value": "まだメールアドレスが入力されていません",
+    "error_required": "メールアドレスは必須です",
+    "error_invalid": "メールアドレスの形式が正しくありません",
+    "submitted": "メールアドレスが送信されました",
+    "submit": "送信"
+  },
   "Selector": {
     "select_placeholder": "オプションを選択"
   },
   "LocaleSwitcher": {
     "label": "言語を変更",
     "locale": "{locale, select, ja {Japanese} en {English} other {Unknown}}"
+  },
+  "SelectBasic": {
+    "select_placeholder": "オプションを選択",
+    "apple": "apple",
+    "banana": "banana",
+    "orange": "orange",
+    "selected": "選択された ",
+    "not_selected": "選択されていない"
+  },
+  "TextareaBasic": {
+    "placeholder": "何か入力してください...",
+    "empty": "まだテキストがありません "
+  },
+  "DivBasic": {
+    "content": "これは基本的な div 要素です "
+  },
+  "H2Basic": {
+    "content": "これは基本的な見出しです"
+  },
+  "SpanBasic": {
+    "content": "これが基本的なスパンです"
+  },
+  "LabelBasic": {
+    "content": "基本ラベルです"
   }
 }
