@@ -11,7 +11,7 @@ export default function ButtonAdvancedClickDemo() {
     const handleLeftClick = () => setAction("left");
     const handleDoubleClick = () => setAction("double");
     const handleRightClick = (e: React.MouseEvent) => {
-        e.preventDefault(); // Ngăn menu chuột phải
+        e.preventDefault(); 
         setAction("right");
     };
 

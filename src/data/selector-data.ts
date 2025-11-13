@@ -8,6 +8,13 @@ export const selectorData = [
         name: "Common Controls",
         controls: [
           {
+            id: "scroll-to-view",
+            name: "Scroll",
+            samples: [
+              { id: "scroll-to-view", name: "Scroll sample" },
+            ],
+          },
+          {
             id: "button",
             name: "Button",
             samples: [
@@ -16,6 +23,7 @@ export const selectorData = [
               { id: "button-loading", name: "Loading Button" },
               { id: "button-icon", name: "Button with Icon" },
               { id: "button-group", name: "Button Group" },
+              { id: "button-scroll", name: "Button Scroll" },
             ],
           },
           {
@@ -124,6 +132,19 @@ export const selectorData = [
             samples: [
               { id: "router-basic", name: "Basic Navigation" },
               { id: "router-params", name: "Navigation with Params" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "common",
+        name: "Common Controls",
+        controls: [
+          {
+            id: "button-angular-click",
+            name: "Button Angular Click",
+            samples: [
+              { id: "button-advanced-click", name: "Button Advanced Click" },
             ],
           },
         ],

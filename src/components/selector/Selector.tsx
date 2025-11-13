@@ -43,6 +43,7 @@ export function Selector() {
         options={options}
         disabled={disabled}
         placeholder={t("select_placeholder")}
+        searchPlaceholder={t("search_placeholder")}
       />
     </div>
   );

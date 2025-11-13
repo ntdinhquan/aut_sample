@@ -10,7 +10,23 @@
     "no_action": "まだアクションはありません",
     "left_click": "左クリックしました!",
     "double_click": "ダブルクリックしました!",
-    "right_click": "右クリックしました!"
+    "right_click": "右クリックしました!",
+    "embedded_demo": "埋め込み Angular サンプル"
+  },
+  "ScrollDemo": {
+    "title": "スクロールインタラクションのデモ",
+    "click_button": "クリックミー",
+    "click_count": "{count} 回クリックしました",
+    "scroll_position": "スクロール位置: {scrollY}px",
+    "section_label": "コンテンツセクション {index}",
+    "final_section_title": "最後まで到達しました!",
+    "email_label": "あなたのメール",
+    "email_placeholder": "メールを入力してください...",
+    "no_value": "まだメールが入力されていません",
+    "submit":"送信",
+    "submitted":"送信済み",
+    "error_invalid": "メールの形式が正しくありません",
+    "error_required": "メールは必須です"
   },
   "CheckboxBasic": {
     "checkbox_checked": "チェック済み!",
@@ -38,7 +54,8 @@
     "submit": "送信"
   },
   "Selector": {
-    "select_placeholder": "オプションを選択"
+    "select_placeholder": "オプションを選択",
+    "search_placeholder": "検索..."
   },
   "LocaleSwitcher": {
     "label": "言語を変更",

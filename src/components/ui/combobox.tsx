@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Command, CommandInput, CommandList, CommandItem, CommandEmpty } from "@/components/ui/command";
-import { CheckIcon, ChevronsUpDownIcon } from "lucide-react";
+import { ChevronsUpDownIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export interface ComboBoxOption<TValue> {
@@ -17,6 +17,7 @@ interface ComboboxProps<TValue> {
   onChange: (value: TValue) => void;
   options: ComboBoxOption<TValue>[];
   placeholder?: string;
+  searchPlaceholder?: string;
   disabled?: boolean;
   className?: string;
 }
@@ -26,6 +27,7 @@ export function Combobox<TValue>({
   onChange,
   options,
   placeholder = "Select...",
+  searchPlaceholder = "Search...",
   disabled,
   className,
 }: ComboboxProps<TValue>) {
@@ -43,7 +45,7 @@ export function Combobox<TValue>({
       </PopoverTrigger>
       <PopoverContent className="p-0 w-40">
         <Command>
-          <CommandInput placeholder="Search..." />
+          <CommandInput placeholder={searchPlaceholder || "Search..."} />
           <CommandList>
             <CommandEmpty>No item found.</CommandEmpty>
             {options.map((o) => (
@@ -55,7 +57,6 @@ export function Combobox<TValue>({
                   setOpen(false);
                 }}
               >
-                <CheckIcon className={cn("mr-2 h-4 w-4", value === o.value ? "opacity-100" : "opacity-0")} />
                 {o.label}
               </CommandItem>
             ))}

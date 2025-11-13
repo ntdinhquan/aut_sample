@@ -11,4 +11,6 @@ export const sampleDemos: Record<string, () => Promise<{ default: React.FC }>> =
     "input-button": () => import("./input-button"),
     "input-email": () => import("./input-email"),
     "input-multi-type": () => import("./input-multi-type"),
+    "button-advanced-click": () => import("./ButtonAdvancedClickDemo"),
+    "scroll-to-view": () => import("./scroll-to-view"),
 };
