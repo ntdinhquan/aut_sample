@@ -33,6 +33,7 @@ export default function InputEmailDemo() {
         placeholder={t("placeholder")}
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
       />
       {message && (
         <div className={`text-xs ${isError ? "text-red-500" : "text-green-500"}`}>

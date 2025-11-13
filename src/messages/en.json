@@ -10,7 +10,24 @@
     "no_action": "No action yet",
     "left_click": "You left clicked!",
     "double_click": "You double clicked!",
-    "right_click": "You right clicked!"
+    "right_click": "You right clicked!",
+    "embedded_demo": "Embedded Angular Sample"
+  },
+  "ScrollDemo": {
+    "title": "Scroll Interaction Demo",
+    "click_button": "Click Me",
+    "click_count": "Clicked {count} times",
+    "scroll_position": "Scroll position: {scrollY}px",
+    "section_label": "Content Section {index}",
+    "final_section_title": "You've reached the end!",
+    "email_label": "Your Email",
+    "email_placeholder": "Enter your email...",
+    "no_value": "No email typed yet",
+    "submit":"Submit",
+    "submitted":"Submitted",
+    "error_invalid": "Email is invalid",
+    "error_required": "Email is required"
+   
   },
   "CheckboxBasic": {
     "checkbox_checked": "Checked!",
@@ -38,7 +55,8 @@
     "submit": "Submit"
   },
   "Selector": {
-    "select_placeholder": "Select an option"
+    "select_placeholder": "Select an option",
+    "search_placeholder": "Search..."
   },
   "LocaleSwitcher": {
     "label": "Change language",
