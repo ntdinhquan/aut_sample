@@ -13,4 +13,8 @@ export const sampleDemos: Record<string, () => Promise<{ default: React.FC }>> =
     "input-multi-type": () => import("./input-multi-type"),
     "button-advanced-click": () => import("./ButtonAdvancedClickDemo"),
     "scroll-to-view": () => import("./scroll-to-view"),
+    "table-basic": () => import("./table-basic"),
+    "table-advance": () => import("./table-advance"),
+    "alert-basic": () => import("./alert-basic"),
+    "alert-dialog": () => import("./alert-dialog"),
 };

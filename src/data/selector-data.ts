@@ -15,15 +15,31 @@ export const selectorData = [
             ],
           },
           {
+            id: "table",
+            name: "Table",
+            samples: [
+              { id: "table-basic", name: "Basic Table" },
+              { id: "table-advance", name: "Advanced Table" },
+            ],
+          },
+          {
+            id: "alert",
+            name: "Alert",  
+            samples: [
+              { id: "alert-basic", name: "Basic Alert" },
+              { id: "alert-dialog", name: "Alert Dialog" },
+            ],
+          },
+          {
             id: "button",
             name: "Button",
             samples: [
               { id: "button-basic", name: "Basic Button" },
               { id: "button-disable", name: "Disable Button" },
-              { id: "button-loading", name: "Loading Button" },
-              { id: "button-icon", name: "Button with Icon" },
-              { id: "button-group", name: "Button Group" },
-              { id: "button-scroll", name: "Button Scroll" },
+              // { id: "button-loading", name: "Loading Button" },
+              // { id: "button-icon", name: "Button with Icon" },
+              // { id: "button-group", name: "Button Group" },
+              // { id: "button-scroll", name: "Button Scroll" },
             ],
           },
           {
@@ -31,9 +47,9 @@ export const selectorData = [
             name: "Input",
             samples: [
               { id: "input-basic", name: "Basic Input" },
-              { id: "input-validate", name: "Input Validation" },
-              { id: "input-password", name: "Password Input" },
-              { id: "input-search", name: "Search Input" },
+              // { id: "input-validate", name: "Input Validation" },
+              // { id: "input-password", name: "Password Input" },
+              // { id: "input-search", name: "Search Input" },
             ],
           },
           {
@@ -62,8 +78,8 @@ export const selectorData = [
             name: "Checkbox",
             samples: [
               { id: "checkbox-basic", name: "Basic Checkbox" },
-              { id: "checkbox-group", name: "Checkbox Group" },
-              { id: "checkbox-indeterminate", name: "Indeterminate Checkbox" },
+              // { id: "checkbox-group", name: "Checkbox Group" },
+              // { id: "checkbox-indeterminate", name: "Indeterminate Checkbox" },
             ],
           },
           {
@@ -118,59 +134,59 @@ export const selectorData = [
       },
     ],
   },
-  {
-    id: "angular",
-    name: "Angular",
-    components: [
-      {
-        id: "navigate",
-        name: "Navigate",
-        controls: [
-          {
-            id: "router-link",
-            name: "Router Link",
-            samples: [
-              { id: "router-basic", name: "Basic Navigation" },
-              { id: "router-params", name: "Navigation with Params" },
-            ],
-          },
-        ],
-      },
-      {
-        id: "common",
-        name: "Common Controls",
-        controls: [
-          {
-            id: "button-angular-click",
-            name: "Button Angular Click",
-            samples: [
-              { id: "button-advanced-click", name: "Button Advanced Click" },
-            ],
-          },
-        ],
-      },
-      {
-        id: "forms",
-        name: "Forms",
-        controls: [
-          {
-            id: "input",
-            name: "Input",
-            samples: [
-              { id: "input-basic", name: "Basic Input" },
-              { id: "input-validate", name: "Input Validation" },
-            ],
-          },
-          {
-            id: "select",
-            name: "Select",
-            samples: [
-              { id: "select-basic", name: "Basic Select" },
-              { id: "select-multiple", name: "Multiple Select" },
-            ],
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   id: "angular",
+  //   name: "Angular (Not Available)",
+  //   components: [
+  //     {
+  //       id: "navigate",
+  //       name: "Navigate",
+  //       controls: [
+  //         {
+  //           id: "router-link",
+  //           name: "Router Link",
+  //           samples: [
+  //             { id: "router-basic", name: "Basic Navigation" },
+  //             { id: "router-params", name: "Navigation with Params" },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "common",
+  //       name: "Common Controls",
+  //       controls: [
+  //         {
+  //           id: "button-angular-click",
+  //           name: "Button Angular Click",
+  //           samples: [
+  //             { id: "button-advanced-click", name: "Button Advanced Click" },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "forms",
+  //       name: "Forms",
+  //       controls: [
+  //         {
+  //           id: "input",
+  //           name: "Input",
+  //           samples: [
+  //             { id: "input-basic", name: "Basic Input" },
+  //             { id: "input-validate", name: "Input Validation" },
+  //           ],
+  //         },
+  //         {
+  //           id: "select",
+  //           name: "Select",
+  //           samples: [
+  //             { id: "select-basic", name: "Basic Select" },
+  //             { id: "select-multiple", name: "Multiple Select" },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
